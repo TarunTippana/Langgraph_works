@@ -1,6 +1,6 @@
 # parallel workflow
 
-#Non LLM Workflow
+#Non LLM Workflow : this code doesnt use the llm.
 
 from langgraph.graph import StateGraph,START,END
 from typing import TypedDict
