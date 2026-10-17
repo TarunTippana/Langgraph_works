@@ -23,7 +23,7 @@ graph.add_node("cal_bmi",calculate_bmi)
 graph.add_edge(START,"cal_bmi")
 graph.add_edge("cal_bmi",END)
 
-# compile the graph
+# compile the graph here entire graph is builded
 app = graph.compile()
 wt=float(input("Enter the weight in kg"))
 ht=float(input("Enter the height in m"))
